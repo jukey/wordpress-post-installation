@@ -1,7 +1,5 @@
 # Collection of changes necessary after a fresh Wordpress installation
 
-created by Uwe (2016-04-05)
-
 ## Secure login by htaccess protection
 
 A lot of attacs against wordpress installations are using the login
@@ -61,10 +59,9 @@ Add the following below:
 # END jukey
 ```
 
-# Edit wp-config.php
+## Edit wp-config.php
 
-
-## Enable upload for files without restriction
+### Enable upload for files without restriction
 
 Add the following at the end of the editable part of the config file:
 
@@ -76,6 +73,6 @@ define("ALLOW_UNFILTERED_UPLOADS", true);
 /* That's all, stop editing! Happy blogging. */
 ```
 
-# Export and Import
+## Export and Import
 
 Could be found in the tools section
