@@ -7,7 +7,8 @@ created by Uwe (2016-04-05)
 A lot of attacs against wordpress installations are using the login
 page and login using a stolen or guessed password or using a security
 vulnerability. It become a good practice to protect the admin pages
-of wordpress installations by a second barrier called htaccess.
+of wordpress installations by a second barrier called htaccess. This
+description was influenced by this [blog post](http://www.chefblogger.me/2013/10/08/anleitung-wordpress-adminbereich-mit-htaccess-absichern/).
 
 ### 1. Create a password file
 
