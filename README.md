@@ -59,6 +59,14 @@ Add the following below:
 # END jukey
 ```
 
+## Remove googleapi references
+
+The default wordpress themes are using google fonts. In order to remove these 
+references for privacy reasons just install the plugin:
+
+- [remove google fonts reference](https://de.wordpress.org/plugins/remove-google-fonts-references/)
+
+
 ## Edit wp-config.php
 
 ### Enable upload for files without restriction
@@ -75,4 +83,5 @@ define("ALLOW_UNFILTERED_UPLOADS", true);
 
 ## Export and Import
 
-Could be found in the tools section
+This is relevant only if you are going to migrate existing pages and postes to
+the newly installed Wordpress blog. Could be found in the tools section
