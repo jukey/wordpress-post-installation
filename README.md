@@ -1,5 +1,13 @@
 # Collection of changes necessary after a fresh Wordpress installation
 
+**Table of Contents** 
+
+- [Change Base-URL without web front end access](#change-base-url-without-web-front-end-access)
+- [Secure login by htaccess protection](#remove-googleapi-references)
+- [Remove googleapi references](#remove-googleapi-references)
+- [Enable upload for files without restriction](#enable-upload-for-files-without-restriction)
+- [Export and Import](#export-and-import)
+
 ## Change Base-URL without web front end access
 
 In case the Base URL of the website needs to be changed and there is no way to log in in order to do so it is possible to add the following to the `wp-config.php`:
@@ -77,10 +85,7 @@ references for privacy reasons just install the plugin:
 
 - [remove google fonts reference](https://de.wordpress.org/plugins/remove-google-fonts-references/)
 
-
-## Edit wp-config.php
-
-### Enable upload for files without restriction
+## Enable upload for files without restriction
 
 Add the following at the end of the editable part of the config file:
 
