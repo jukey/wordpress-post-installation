@@ -1,5 +1,16 @@
 # Collection of changes necessary after a fresh Wordpress installation
 
+## Change Base-URL without web front end access
+
+In case the Base URL of the website needs to be changed and there is no way to log in in order to do so it is possible to add the following to the `wp-config.php`:
+
+```
+define('WP_HOME','http://example.com');
+define('WP_SITEURL','http://example.com');
+```
+
+Using this solution you cannot any longer edit the base URL in the General Settings page in the admin panel.
+
 ## Secure login by htaccess protection
 
 A lot of attacs against wordpress installations are using the login
